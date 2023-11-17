@@ -1,0 +1,15 @@
+.dark-mode {
+    background-color: #000;
+}
+
+.dark-mode .app-container {
+    background-color: #101010;
+}
+
+.dark-mode h1 {
+    color: #FFF;
+}
+
+.dark-mode p {
+    color: #E8E8E8;
+}

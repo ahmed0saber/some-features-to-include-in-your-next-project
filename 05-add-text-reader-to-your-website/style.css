@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    padding: 12px;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 480px;
+    padding: 12px;
+    background-color: #E8E8E8;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+h1 {
+    color: #101010;
+}
+
+p {
+    color: #323232;
+    margin: 6px 0 12px 0;
+}
+
+.text-to-speech-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 18px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.text-to-speech-btn.is-speaking {
+    background-color: #28a745;
+}
+
+.text-to-speech-btn svg {
+    width: 20px;
+}
