@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+}
+
+body {
+    background-color: #ffe7e7;
+}
+
+nav {
+    padding: 0px 0px 0px 10px;
+}
+
+.brand-logo span {
+    color: aqua;
+}
+
+#container {
+    padding: 2px 0px 0px 0px;
+}
+
+.card {
+    padding: 8px 8px 0px 8px;
+    margin: 4px;
+    width: 100%;
+}
+
+.card-image {
+    border-radius: 2px;
+}
+
+.download {
+    margin: 10px 0px;
+}
+
+.load-more {
+    text-align: center;
+    margin: 5px 5px 40px 5px;
+}
+
+.btn-floating {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+}
+
+.footer-copyright i.fa {
+    margin: 0px 4px;
+    font-size: 20px;
+    padding: 6px;
+    color: #f7f7f7;
+    background: transparent;
+    border: 2px solid #f7f7f7;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+}
+
+.footer-copyright i.fa:hover {
+    color: #E53935;
+    background: #f7f7f7;
+    border: 2px solid #0000;
+}
+
+@media screen and (max-width: 992px) {
+    #container {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .card {
+        margin: 4px 0px;
+    }
+}
+
+.btn-help {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    z-index: 99;
+    background-color: #E53935;
+    color: #f7f7f7;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 2px #10101031;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
